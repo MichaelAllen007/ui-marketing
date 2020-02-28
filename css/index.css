@@ -190,8 +190,75 @@ footer {
   color: #D90B42;
   background: #F29016;
   padding: 20px 0;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home-container .intro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-container .intro .truck {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.home-container .home-food {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  flex-direction: column;
+}
+.home-container .home-food .never-miss {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.home-container .food-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+.home-container .about-tracker {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.home-container .about-tracker .about-text {
+  width: 50%;
+}
+.home-container .about-tracker .btn {
+  background: #E44635;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 30%;
+  text-align: center;
+}
+.home-container .about-tracker .btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.home-container .about-tracker .about-image {
+  width: 46%;
+  margin-left: 4%;
+}
+.home-container .about-tracker .about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }

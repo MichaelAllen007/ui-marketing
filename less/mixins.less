@@ -8,6 +8,23 @@
     opacity: 0.8;
 }
 
+.mixin-btn(@background: @lightred, @btn-font: @white) {
+    background: @lightred;
+    color: @white;
+    font-size: 1.4em;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 30%;
+    text-align: center;
+
+        &:hover{
+            background: white;
+            color: black;
+            border: 1px solid black;
+        }
+}
+
 
 
 .mixin-phone() {
