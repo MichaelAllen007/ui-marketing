@@ -164,9 +164,8 @@ p {
 #nav-header {
   display: flex;
   opacity: 0.8;
-  background: #F29016;
+  background: #D93030;
   width: 100%;
-  border: 2px solid red;
   padding: 10px;
 }
 #nav-header .nav-container {
@@ -184,7 +183,7 @@ p {
   font-size: 1.6em;
   margin: 16px 1.6rem;
   font-weight: bold;
-  color: #D90B42;
+  color: #F29016;
 }
 footer {
   color: #D90B42;
